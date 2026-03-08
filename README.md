@@ -2,7 +2,7 @@
 
 > A dual-mode (manual + autonomous) delivery robot built on the AT89S52 (8051) microcontroller, designed for hospital medicine delivery use cases.
 
-**Team:** Andrea. A (24BCE1142) — VIT Chennai
+**Team:** Andrea. A (24BCE1142) 
 
 ---
 
@@ -31,23 +31,6 @@ A key application is contact-free medicine delivery between hospital rooms.
 | 9V Battery / Power Bank | 1 | Powers logic and motor circuits |
 | Breadboard (Medium) | 1 | Circuit assembly |
 | Jumper Wires | ~20–25 | Pin-to-pin connections |
-
----
-
-## 🔌 Pin Connections
-
-| Component | Component Pin | 8051 Pin |
-|---|---|---|
-| L293D Motor Driver | IN1 | P1.0 |
-| | IN2 | P1.1 |
-| | IN3 | P1.2 |
-| | IN4 | P1.3 |
-| HC-05 Bluetooth | TXD | P3.0 (RXD) |
-| | RXD | P3.1 (TXD) |
-| HC-SR04 Ultrasonic | Trig | P2.0 |
-| | Echo | P2.1 |
-| IR Sensor (Left) | OUT | P2.2 |
-| IR Sensor (Right) | OUT | P2.3 |
 
 ---
 
@@ -122,14 +105,16 @@ The robot uses a **dual-power configuration** to prevent microcontroller resets 
 
 ```
 📦 obstacle-avoiding-robot-8051
-├── main.c              # Full C source code
+├── obstacleavoidingcode.c             # Full C source code
 ├── README.md           # This file
+├── report.pdf
 ├── media/
-│   ├── robot_front.jpg
-│   ├── robot_side.jpg
-│   └── demo.mp4        # (optional)
-└── docs/
-    └── DA3-ProjReport.pdf
+│   ├── robot_front.png
+│   ├── robot_side.png
+│   └── robot_top.png
+└── pin diag/
+   └── basicpindiag.png
+
 ```
 
 ---
@@ -145,4 +130,4 @@ The robot uses a **dual-power configuration** to prevent microcontroller resets 
 
 ## 📄 License
 
-This project was submitted as part of coursework at **VIT Chennai**. For academic and educational use only.
+This project was submitted as part of coursework at **VIT Chennai**. For academic and educational use only. This is a self made project, any misuse is strictly prohibited.
